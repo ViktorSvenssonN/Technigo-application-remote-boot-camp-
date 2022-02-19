@@ -1,0 +1,53 @@
+/* Here I declare and modify my h1 element, I opted for a black background so the color of the text is white, and I centered the text
+so that the first thing that catches your eye is https, and the choice of font I went with helvetica just because I like it */
+h1 
+{
+  color: #f6f6f8;
+  font-family: helvetica;
+  text-align: center;
+}
+/* I declare that all the text in the "p" will be whitesome, and have the font helvetica */
+p 
+{
+  color: whitesmoke;
+  font-family: helvetica;
+}
+/* And here is my first CSS class ever, which gives the first button "Wikipedia" the color darkgoldenrod and font-weight to 400, 
+and when you hover over the button the cursor will become a "pointer" same goes for all button classes */
+a.button1{
+   outline-color: coral;
+   color: darkgoldenrod;
+   font-weight: 400;
+   cursor: pointer;
+}
+/* Here is the second CSS class that changes when you hover over the "Wikipedia" button to change the colour of the text and background */
+a.button1:hover{
+  color:#f1eeee;
+  background-color:#302d2d;
+}
+/* Here is the third CSS class similar to the first one, but I changes the second button, I changed the color sligthly */
+a.button2{
+  outline-color: rgb(253, 134, 91);
+   color: rgb(189, 144, 30);
+   cursor: pointer;
+}
+/* This class changes the second button when you hover over it, here I change the colour slightly again */
+a.button2:hover{
+  color:#cec8c8;
+  background-color:#494141;
+}
+/* This is the third and finale button, its identical to the other, but with a small change in the colours */
+a.button3{
+  outline-color: rgb(250, 106, 53);
+   color: rgb(189, 144, 30);
+   cursor: pointer;
+}
+a.button3:hover{
+  color:#fcf9f9;
+  background-color:#383232;
+}
+/* Here we change the colour for everything thats in the "body" of the webpage to black */
+body 
+{
+   background-color: black;
+}
